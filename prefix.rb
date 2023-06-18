@@ -14,7 +14,7 @@ def longest_common_prefix(strs)
   result
 end
 
-strs = ["a","aaa","a"]
+strs = ["flower","flow","flight"]
 p longest_common_prefix(strs)
 
 #Решение заключалось в том, чтобы сначало сохранить в переменную первый элемент массива, и потом уже сравнивать с ним остальные строки из массива на нахохдения общих префиксов.
