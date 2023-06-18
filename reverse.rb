@@ -31,3 +31,12 @@ end
 
 string = "hello"
 puts reverse(string)
+
+#Четвертый вариант
+reversed = ""
+string = "hello"
+for i in 0..(string.length - 1)
+  reversed = string[i] + reversed
+end
+
+puts reversed
