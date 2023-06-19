@@ -1,5 +1,4 @@
 #Очень простой красивый алгоритм переворачивания строки в руби
-
 #First solution
 def reverse(string)
   reversed = ""
@@ -40,3 +39,13 @@ for i in 0..(string.length - 1)
 end
 
 puts reversed
+
+#Пятый вариант
+
+reversed = Array.new
+string = "hello"
+for i in 0..(string.length-1)
+  reversed.unshift(string[i])
+end
+
+puts reversed.join
