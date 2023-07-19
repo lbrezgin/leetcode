@@ -16,7 +16,7 @@ p two_sum([3,2,4], 6)
 =end
 #2)
 
-def two_sum(nums, target) 
+def two_sum(nums, target)
   complement_hash = {}
   nums.each_with_index do |num, i|
     return [complement_hash[num], i] if complement_hash.key?(num)
@@ -25,4 +25,4 @@ def two_sum(nums, target)
   end
 end
 
-p two_sum([3,2,4], 6) 
+p two_sum([3,2,4], 6)
